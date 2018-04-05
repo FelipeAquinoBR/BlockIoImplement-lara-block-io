@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aquino\\BlockIo\\": "src/"
+            "Aquinow\\BlockIo\\": "src/"
         }
     }
 }
