@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockavel\LaraBlockIo;
+namespace Aquinow\BlockIo;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class LaraBlockIoFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'lara-block-io';
+        return 'blockio';
     }
 }

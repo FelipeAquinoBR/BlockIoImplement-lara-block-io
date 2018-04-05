@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockavel\LaraBlockIo;
+namespace Aquinow\BlockIo;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class LaraBlockIoServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/main.php' => config_path('larablockio.php'),
+            __DIR__.'/config/main.php' => config_path('aquinowblockio.php'),
         ]);
 
         $file = __DIR__.'/../vendor/autoload.php';
@@ -31,7 +31,7 @@ class LaraBlockIoServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('lara-block-io', function () {
+        $this->app->bind('blockio', function () {
             return new LaraBlockIo();
         });
     }

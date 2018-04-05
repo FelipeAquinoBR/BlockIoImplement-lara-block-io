@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockavel\LaraBlockIo;
+namespace Aquinow\BlockIo;
 
 class LaraBlockIo
 {
