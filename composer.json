@@ -1,5 +1,5 @@
 {
-    "name": "blockavel/lara-block-io",
+    "name": "BlockIo Implement",
     "description": "A Laravel package/facade for the Block.io API PHP wrapper.",
     "keyword": ["laravel", "bitcoin", "litecoin", "dogecoin", "blockchain", "wallet", "blockio"],
     "license": "MIT",
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blockavel2\\LaraBlockIo\\": "src/"
+            "BlockIoImplement\\LaraBlockIo\\": "src/"
         }
     }
 }
