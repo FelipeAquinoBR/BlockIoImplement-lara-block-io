@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "block_io-php/block_io-php": "^1.2",
+        "block_io-php/block_io-php": "^1.1",
         "ext-mcrypt": "*",
         "ext-gmp": "*",
         "ext-curl": "*",
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blockavel\\LaraBlockIo\\": "src/"
+            "Blockavel2\\LaraBlockIo\\": "src/"
         }
     }
 }
